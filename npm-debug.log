@@ -1,0 +1,30 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/node/bin/node',
+1 verbose cli   '/usr/local/node/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'serve' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.38
+4 verbose node symlink /usr/local/node/bin/node
+5 verbose run-script [ 'preserve', 'serve', 'postserve' ]
+6 info preserve react-webpack-example@1.0.0
+7 info serve react-webpack-example@1.0.0
+8 verbose unsafe-perm in lifecycle true
+9 info react-webpack-example@1.0.0 Failed to exec serve script
+10 error react-webpack-example@1.0.0 serve: `http-server -p 8080`
+10 error Exit status 8
+11 error Failed at the react-webpack-example@1.0.0 serve script.
+11 error This is most likely a problem with the react-webpack-example package,
+11 error not with npm itself.
+11 error Tell the author that this fails on your system:
+11 error     http-server -p 8080
+11 error You can get their info via:
+11 error     npm owner ls react-webpack-example
+11 error There is likely additional logging output above.
+12 error System Darwin 14.3.0
+13 error command "/usr/local/node/bin/node" "/usr/local/node/bin/npm" "run" "serve"
+14 error cwd /Users/Mark/projects/github/react-webpack-example
+15 error node -v v0.10.38
+16 error npm -v 1.4.28
+17 error code ELIFECYCLE
+18 verbose exit [ 1, true ]
